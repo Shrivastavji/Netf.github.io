@@ -1,0 +1,84 @@
+body{
+    display: flex;
+    justify-content: center;
+    padding: 8%;
+    background-color: darkred;
+}
+#box{
+    width: 450px;
+    height: 600px;
+    background: linear-gradient(rgb(255, 255, 255),rgb(255, 255, 255));
+    color: aliceblue;
+}
+#login{
+    
+    padding: 5%;
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+#email{
+    text-align: center;
+    color: darkred;
+}
+#text{
+    width: 200px;
+    height: 25px;
+    border-radius: 50px;
+    border-color: white;
+    border-top: white;
+    border-left: white;
+    border-bottom-color: black;
+}
+#password{
+    width: 200px;
+    height: 25px;
+    border-radius: 50px;
+    border-color: white;
+    border-top: white;
+    border-left: white;
+    border-bottom-color: black;
+}
+input[type="text"]
+{
+    text-align: center;
+}
+input[type="email"]
+{
+    text-align: center;
+}
+input[type="password"]
+{
+    text-align: center;
+}
+#dash{
+    width: 90px;
+    height: 30px;
+    text-align: center;
+    position: absolute;
+    font-size: 22px;
+    color: darkred;
+    top: 10px;
+    border-radius: 25px;
+    background-color: white;
+}
+#dash a{
+    text-decoration: none;
+    color: darkred;
+}
+#submit{
+    background-color: white;
+    width: 120px;
+    height: 45px;
+    border-radius: 50px;
+    border: 0px;
+    font-size: 25px;
+    
+    transition: all 0.8s ease;
+}
+#submit:hover{
+    background-color: darkred;
+    color: white;
+}
